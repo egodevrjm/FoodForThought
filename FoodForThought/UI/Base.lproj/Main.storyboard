@@ -343,16 +343,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="XqX-Dr-89e">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="166"/>
+                                <rect key="frame" x="-36" y="-21" width="439" height="186"/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8yC-Hf-bFd">
-                                <rect key="frame" x="0.0" y="117" width="375" height="49"/>
+                                <rect key="frame" x="0.0" y="115.5" width="375" height="50"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="mq7-hu-4hy">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16c-LS-dNr">
-                                            <rect key="frame" x="8" y="8" width="175.5" height="33"/>
+                                            <rect key="frame" x="8" y="8" width="175.5" height="34"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                             <state key="normal" title="Take Photo">
                                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -362,7 +362,7 @@
                                             </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mRU-D4-hQq">
-                                            <rect key="frame" x="191.5" y="8" width="175.5" height="33"/>
+                                            <rect key="frame" x="191.5" y="8" width="175.5" height="34"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                             <state key="normal" title="Select Photo">
                                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -386,7 +386,7 @@
                                 <blurEffect style="light"/>
                             </visualEffectView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Iz5-9o-WCR">
-                                <rect key="frame" x="8" y="174" width="359" height="369"/>
+                                <rect key="frame" x="8" y="173.5" width="359" height="369.5"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kVS-n1-QC6">
                                         <rect key="frame" x="0.0" y="0.0" width="359" height="61.5"/>
@@ -477,13 +477,13 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OSn-fE-AsJ">
-                                        <rect key="frame" x="0.0" y="184.5" width="359" height="61.5"/>
+                                        <rect key="frame" x="0.0" y="184.5" width="359" height="62"/>
                                         <subviews>
                                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="psS-gq-fcF">
-                                                <rect key="frame" x="171.5" y="0.0" width="179.5" height="61.5"/>
+                                                <rect key="frame" x="171.5" y="0.0" width="179.5" height="62"/>
                                             </pickerView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lP9-pz-tzG">
-                                                <rect key="frame" x="8" y="8" width="155.5" height="45.5"/>
+                                                <rect key="frame" x="8" y="8" width="155.5" height="46"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -502,7 +502,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PSX-F8-WEM">
-                                        <rect key="frame" x="0.0" y="246" width="359" height="61.5"/>
+                                        <rect key="frame" x="0.0" y="246.5" width="359" height="61.5"/>
                                         <subviews>
                                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pyR-4b-vKP">
                                                 <rect key="frame" x="171.5" y="0.0" width="179.5" height="61.5"/>
@@ -527,7 +527,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZQA-B7-qaG">
-                                        <rect key="frame" x="0.0" y="307.5" width="359" height="61.5"/>
+                                        <rect key="frame" x="0.0" y="308" width="359" height="61.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pck-ou-oaN">
                                                 <rect key="frame" x="89.5" y="16" width="179.5" height="29.5"/>
@@ -563,15 +563,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="8yC-Hf-bFd" firstAttribute="height" secondItem="XqX-Dr-89e" secondAttribute="height" multiplier="0.3" id="3bS-8Q-ogd"/>
+                            <constraint firstItem="8yC-Hf-bFd" firstAttribute="height" secondItem="XqX-Dr-89e" secondAttribute="height" multiplier="0.3" constant="-5.7999999999999972" id="3bS-8Q-ogd"/>
                             <constraint firstItem="P5Q-uK-ePw" firstAttribute="trailing" secondItem="Iz5-9o-WCR" secondAttribute="trailing" constant="8" id="FEq-Cp-adD"/>
                             <constraint firstItem="8yC-Hf-bFd" firstAttribute="trailing" secondItem="P5Q-uK-ePw" secondAttribute="trailing" id="FXf-ek-9d1"/>
-                            <constraint firstItem="XqX-Dr-89e" firstAttribute="trailing" secondItem="P5Q-uK-ePw" secondAttribute="trailing" id="L11-I9-iDe"/>
+                            <constraint firstItem="XqX-Dr-89e" firstAttribute="trailing" secondItem="P5Q-uK-ePw" secondAttribute="trailing" constant="28" id="L11-I9-iDe"/>
                             <constraint firstItem="Iz5-9o-WCR" firstAttribute="top" secondItem="XqX-Dr-89e" secondAttribute="bottom" constant="8" id="NxB-ZA-Crt"/>
-                            <constraint firstItem="XqX-Dr-89e" firstAttribute="height" secondItem="9jl-Gz-FlK" secondAttribute="height" multiplier="0.3" id="Obh-n0-7UE"/>
-                            <constraint firstItem="XqX-Dr-89e" firstAttribute="top" secondItem="P5Q-uK-ePw" secondAttribute="top" id="PaM-Hn-KkI"/>
+                            <constraint firstItem="XqX-Dr-89e" firstAttribute="height" secondItem="9jl-Gz-FlK" secondAttribute="height" multiplier="0.3" constant="20.700000000000017" id="Obh-n0-7UE"/>
+                            <constraint firstItem="XqX-Dr-89e" firstAttribute="top" secondItem="P5Q-uK-ePw" secondAttribute="top" constant="-21" id="PaM-Hn-KkI"/>
                             <constraint firstItem="8yC-Hf-bFd" firstAttribute="leading" secondItem="P5Q-uK-ePw" secondAttribute="leading" id="XGh-pU-dEL"/>
-                            <constraint firstItem="XqX-Dr-89e" firstAttribute="leading" secondItem="P5Q-uK-ePw" secondAttribute="leading" id="cgW-YF-c5x"/>
+                            <constraint firstItem="XqX-Dr-89e" firstAttribute="leading" secondItem="P5Q-uK-ePw" secondAttribute="leading" constant="-36" id="cgW-YF-c5x"/>
                             <constraint firstItem="8yC-Hf-bFd" firstAttribute="bottom" secondItem="XqX-Dr-89e" secondAttribute="bottom" id="fpC-eo-gQU"/>
                             <constraint firstItem="P5Q-uK-ePw" firstAttribute="bottom" secondItem="Iz5-9o-WCR" secondAttribute="bottom" constant="8" id="smK-J9-lLj"/>
                             <constraint firstItem="Iz5-9o-WCR" firstAttribute="leading" secondItem="P5Q-uK-ePw" secondAttribute="leading" constant="8" id="z8c-YW-KcL"/>
