@@ -17,7 +17,7 @@ class GalleryViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         imageView.image = UIImage(named: imageName)
-        addParallaxToView(vw: imageView, amount: 20)
+        addParallaxToView(vw: imageView, amount: 40)
     }
     
 }

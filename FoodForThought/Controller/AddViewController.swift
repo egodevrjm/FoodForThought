@@ -28,7 +28,7 @@ class AddViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDat
         super.viewDidLoad()
         
         //style
-        addButton.layer.cornerRadius = 5.0
+        
         addParallaxToView(vw: imageView, amount: 10)
         
         //pickers

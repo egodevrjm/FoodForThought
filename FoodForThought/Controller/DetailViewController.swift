@@ -12,13 +12,14 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var addressButtonStyle: UIButton!
     
+    @IBOutlet weak var imageView: UIImageView!
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        addParallaxToView(vw: imageView, amount: 10)
         
-        addressButtonStyle.layer.cornerRadius = 5.0
     }
 
 }

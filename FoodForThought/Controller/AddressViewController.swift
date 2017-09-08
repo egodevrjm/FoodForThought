@@ -29,7 +29,7 @@ class AddressViewController: UIViewController, UITextFieldDelegate, CLLocationMa
         stateTextField.delegate = self
         countryTextField.delegate = self
         
-        getLocationStyle.layer.cornerRadius = 5.0
+        
     }
     
     // Text Fields
